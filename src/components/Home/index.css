@@ -1,0 +1,42 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.username {
+  font-size: 12px;
+  color: #12022f;
+  font-weight: 600;
+}
+.profile-image {
+  width: 50px;
+}
+.role {
+  font-size: 10px;
+  color: #9aa5b1;
+}
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #12022f;
+  font-size: 12px;
+}
+.publishedDate {
+  color: #9aa5b1;
+  font-size: 10px;
+}
+.description {
+  color: #9aa5b1;
+  font-size: 10px;
+}
+.title-publishedDate{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
